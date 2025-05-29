@@ -1,3 +1,4 @@
+import Fruits from "./components/Fruits";
 import Hello from "./components/Hello"
 
 function App() {
@@ -5,13 +6,12 @@ function App() {
   return (
    
     <div>
-      <Hello emoji = '🤷‍♂️' name = 'Superman' message = 'Hi there'/> 
-      <Hello name = 'IronMan' emoji= '⚡🔥' message = 'I used to love your content'/> 
+      <Fruits/> 
     </div>
 
     
 
   )
-}
+};
 
 export default App
